@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="GBK"?>
+<transdata>
+	<baseinfo>
+		<userid></userid><!--用户登录认证-->
+		<userpwd></userpwd><!--用户登录认证-->
+		<beginnum></beginnum><!--单证入库校验-->
+		<endnum></endnum><!--单证入库校验-->
+		<machineid></machineid><!--单证入库校验-->
+	</baseinfo>
+	<inputdata>
+		<sellformnum></sellformnum><!--查询保单-->
+		<policynum></policynum><!--查询保单-->
+		<customid></customid>
+		<name></name>
+		<birthday></birthday>
+		<sex></sex>
+		<outletid></outletid>
+		<userid></userid>
+		<posid></posid>
+		<riskcode></riskcode>
+		<plancode></plancode>
+
+		<printdate></printdate>
+		<printtime></printtime>
+		<printflag></printflag>
+
+		<insuredate></insuredate>
+		<insuretime></insuretime>
+		<insureflag></insureflag>
+
+		<ceasedate></ceasedate>
+		<ceasetime></ceasetime>
+		<ceaseflag></ceaseflag>
+
+		<backupdate></backupdate>
+		<backuptime></backuptime>
+		<backupflag></backupflag>
+
+		<finalflag></finalflag>
+	</inputdata>
+	<outputdata />
+</transdata>

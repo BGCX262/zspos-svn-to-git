@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GBK"?>
+<TransData>
+	<BaseInfo>
+		<IdNo></IdNo>
+		<InsIdNo></InsIdNo>
+		<AppIdNo></AppIdNo>
+		<CustomerNo></CustomerNo>
+		<ContNo>123456</ContNo>
+		<PrtNo></PrtNo>
+		<TempfeeNo></TempfeeNo>
+		<AgentCode></AgentCode>
+		<SigndateStart></SigndateStart>
+		<SigndateEnd></SigndateEnd>
+		<Riskcode></Riskcode>
+		<AppName></AppName>
+		<PayMode></PayMode>
+		<ContState></ContState>
+	</BaseInfo>
+	<InputData>
+	</InputData>
+	<OutputData>
+	</OutputData>
+</TransData>

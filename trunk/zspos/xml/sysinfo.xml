@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<sysvar> 
+  <!--系统静态参数-->  
+  <riskcode>357359748</riskcode>  
+  <sellformtype>UN001</sellformtype>  
+  <printertype>AB-320K</printertype>  
+  <poscode>zsmz001</poscode>  
+  <interval>70</interval>  
+  <plans> 
+    <item> 
+      <key>流动人口</key>  
+      <value>Foreigner</value> 
+    </item>  
+    <item> 
+      <key>本地人口</key>  
+      <value>Native</value> 
+    </item> 
+  </plans>  
+  <!--系统流程控制参数-->  
+  <idnorule>no</idnorule>  
+  <!--70天校验-->  
+  <sellformrule>yes</sellformrule>  
+  <!--单证段入库校验-->  
+  <direction>backup</direction>  
+  <!--承保数据的处理，实达webservices或分公司数据库backup或no-->  
+  <headnum>662370</headnum>  
+  <!--广东分配到的前n位保单号码-->  
+  <!--系统动态参数-->  
+  <policynum>66237000036521</policynum>  
+  <sellformnum>20032000036521</sellformnum>  
+  <startsellformnum>20032000036511</startsellformnum>  
+  <endsellformnum>20032000036521</endsellformnum>  
+  <lastpolicy> 
+    <policynum>66237000036520</policynum>  
+    <sellformnum>20032000036520</sellformnum>  
+    <applicantname>林润</applicantname>  
+    <applicantzjnum>445122198505127039</applicantzjnum>  
+    <applicantsex>0</applicantsex>  
+    <applicantbirthday>1985-05-12</applicantbirthday>  
+    <riskcode>357359748</riskcode>  
+    <plancode>Native</plancode>  
+    <outlets>中山小榄</outlets> 
+  </lastpolicy> 
+</sysvar>

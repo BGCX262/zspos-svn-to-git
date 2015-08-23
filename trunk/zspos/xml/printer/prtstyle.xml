@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="GBK"?>
+<pagestyle> 
+  <destinationport>com3</destinationport>  
+  <printer type='AB-320K'> 
+    <riskcode id='357359748'> 
+      <sellformtype type='UN001'>
+        <plans code="Native">LR01</plans>  
+        <plans code="Foreigner">LR02 </plans>
+      </sellformtype>
+    </riskcode>
+  </printer>  
+  <styles id='LR01'>
+    <pageadjust>0x10</pageadjust> 
+    <skiplines>0x21</skiplines> 
+    <linesadjustplus>
+      <adjustwidth line="2">0x04</adjustwidth> 
+      <adjustwidth line="3">0x05</adjustwidth> 
+      <adjustwidth line="4">0x06</adjustwidth> 
+    </linesadjustplus>
+    <linesadjustminus>
+      <adjustwidth line="7">0x08</adjustwidth> 
+      <adjustwidth line="8">0x08</adjustwidth> 
+      <adjustwidth line="9">0x08</adjustwidth> 
+      <adjustwidth line="10">0x08</adjustwidth> 
+      <adjustwidth line="11">0x08</adjustwidth> 
+    </linesadjustminus>
+    <defaultitems>
+      <remark1>身份证</remark1> 
+      <remark2>中山小榄006</remark2> 
+      <remark3>￥5.00</remark3> 
+      <remark4>意外伤害 ￥ 30000.00</remark4> 
+      <remark5>意外伤害医疗 ￥ 3000.00</remark5> 
+      <remark6>飞机意外伤害 ￥300000.00</remark6> 
+      <remark7>火车意外伤害 ￥100000.00</remark7> 
+      <remark8>汽车意外伤害 ￥ 30000.00</remark8> 
+      <remark9>小榄计生所</remark9> 
+    </defaultitems>
+    <lines> 
+      <line>1</line>
+      <line >
+        <item >10</item> 
+        <item >remark9</item> 
+      </line>
+      <line >
+        <item >4</item> 
+        <item >insuredname</item> 
+        <item >16</item> 
+        <item >insuredsex</item> 
+      </line>
+      <line >
+        <item >4</item> 
+        <item >remark1</item> 
+      </line>
+      <line >
+        <item >12</item> 
+        <item >insuredidno</item> 
+      </line>
+      <line >2</line>
+      <line >
+        <item >remark4</item> 
+      </line>
+      <line >
+        <item >remark5</item> 
+      </line>
+      <line >
+        <item >remark6</item> 
+      </line>
+      <line >
+        <item >remark7</item> 
+      </line>
+      <line >
+        <item >remark8</item> 
+      </line>
+      <line >1</line>
+      <line >
+        <item >6</item> 
+        <item >remark3</item> 
+      </line>
+      <line >10</line>
+      <line >
+        <item >22</item> 
+        <item >printday</item> 
+      </line>
+      <line >
+        <item >22</item> 
+        <item >outlets</item> 
+      </line>
+      <line >7</line>
+    </lines>
+  </styles> 
+  <styles id='LR02'>
+    <pageadjust>0x10</pageadjust> 
+    <skiplines>0x21</skiplines> 
+    <linesadjustplus>
+      <adjustwidth line="2">0x04</adjustwidth> 
+      <adjustwidth line="3">0x05</adjustwidth> 
+      <adjustwidth line="4">0x06</adjustwidth> 
+    </linesadjustplus>
+    <linesadjustminus>
+      <adjustwidth line="7">0x08</adjustwidth> 
+      <adjustwidth line="8">0x08</adjustwidth> 
+      <adjustwidth line="9">0x08</adjustwidth> 
+      <adjustwidth line="10">0x08</adjustwidth> 
+      <adjustwidth line="11">0x08</adjustwidth> 
+    </linesadjustminus>
+    <defaultitems>
+      <remark1>身份证</remark1> 
+      <remark2>中山小榄006</remark2> 
+      <remark3>￥5.00</remark3> 
+      <remark4>意外伤害 ￥ 30000.00</remark4> 
+      <remark5>意外伤害医疗 ￥ 2000.00</remark5> 
+      <remark6>飞机意外伤害 ￥300000.00</remark6> 
+      <remark7>火车意外伤害 ￥100000.00</remark7> 
+      <remark8>汽车意外伤害 ￥ 30000.00</remark8> 
+      <remark9>小榄计生所</remark9> 
+    </defaultitems>
+    <lines> 
+      <line>1</line>
+      <line >
+        <item >16</item> 
+        <item >remark9</item> 
+      </line>
+      <line >
+        <item >4</item> 
+        <item >insuredname</item> 
+        <item >16</item> 
+        <item >insuredsex</item> 
+      </line>
+      <line >
+        <item >4</item> 
+        <item >remark1</item> 
+      </line>
+      <line >
+        <item >12</item> 
+        <item >insuredidno</item> 
+      </line>
+      <line >2</line>
+      <line >
+        <item >remark4</item> 
+      </line>
+      <line >
+        <item >remark5</item> 
+      </line>
+      <line >
+        <item >remark6</item> 
+      </line>
+      <line >
+        <item >remark7</item> 
+      </line>
+      <line >
+        <item >remark8</item> 
+      </line>
+      <line >1</line>
+      <line >
+        <item >6</item> 
+        <item >remark3</item> 
+      </line>
+      <line >10</line>
+      <line >
+        <item >22</item> 
+        <item >printday</item> 
+      </line>
+      <line >
+        <item >22</item> 
+        <item >outlets</item> 
+      </line>
+      <line >7</line>
+    </lines>
+  </styles>  
+</pagestyle>
+<!--
+pageadjust      :页微调，     十六进制 0x00到0x70
+skiplines       :页尾走行，十六进制 0x00到0x70,0x21走33行表示过页
+skiplines       :页尾走行，十六进制 0x00到0x70,0x21走33行表示过页
+linesadjustplus :行正微调，十六进制 0x00到0x18
+linesadjustminus:行负微调，十六进制 0x00到0x18
+line            :空行，          1,2,3...表示空行数
+String  policynum="85420000012363";       //保单号与出单时间
+String  sellformnum="05420000012363";       //保单号与出单时间
+String  printday="2011-05-03";
+String  printtime="17:32";
+String  operatorcode="sa";
+String  operatorname="拱北";
+String  agentcode="107900101";       //管理机构，出单员
+String  agentname="汇嘉集团";
+String  riskcode
+String  plancode
+String  outlets
+	
+String applicantname="林润";    //投保人
+String applicantsex="男";
+String applicantbirthday="1985-05-12";
+String applicantidno="445122198505127039";
+String applicantidtype="";
+	
+String insuredname="林润";      //被保人
+String insuredsex="男";
+String insuredbirthday="1985-05-12";
+String insuredidno="445122198505127039";
+String insuredidtype="";
+	
+String  remark1="";         //备用字段
+String  remark2="";
+String  remark3="";
+String  remark4="";         //备用字段
+String  remark5="";
+String  remark6="";
+String  remark7="";         //备用字段
+String  remark8="";
+String  remark9="";
+String  remark10="";         //备用字段
+String  remark11="";
+String  remark12="";
+String  remark13="";         //备用字段
+String  remark14="";
+String  remark15="";
+String  remark16="";
+String  remark17="";
+String  remark18="";         //备用字段
+String  remark19="";
+String  remark20="";
+-->
